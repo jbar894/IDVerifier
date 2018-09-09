@@ -43,10 +43,12 @@ app.post('/upload', function(req, res){
           // \d\w?\. ([a-zA-Z0-9-]+)?
           //console.log(typeof response.data);
           //console.log(JSON.stringify(response.data));
+          res.send("<pre>" + JSON.stringify(id,null,4) + "</pre>");
       });
 
     //console.log(req.files.image.data.toString('base64'));
     //console.log(base64Encode(req.files.image.data));
+
 })
 
 app.listen(3000);
