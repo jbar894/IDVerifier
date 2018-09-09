@@ -1,0 +1,25 @@
+{
+  "name": "idverifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbar894/IDVerifier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbar894/IDVerifier/issues"
+  },
+  "homepage": "https://github.com/jbar894/IDVerifier#readme",
+  "dependencies": {
+    "axios": "0.18.0",
+    "chalk": "2.4.1",
+    "express": "4.16.3",
+    "express-fileupload": "0.4.0"
+  }
+}
